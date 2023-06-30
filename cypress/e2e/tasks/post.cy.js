@@ -7,7 +7,7 @@ describe('POST /tasks', () => {
         })
     })
 
-    context.only('register a new task', function () {
+    context('register a new task', function () {
         
         before(function () {
             cy.purgeQueueMessages()
